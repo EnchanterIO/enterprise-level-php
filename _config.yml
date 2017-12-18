@@ -32,7 +32,7 @@ header-focus-button:
 
 # Secondary Buttons
 header-secondary-button:
-  title: Tell me more
+  title: Hm, Tell me more
   url: "#about"
 
 #
@@ -51,11 +51,11 @@ baseurl:
 # IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
 # To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
 #
-email: your_email@example.com
+email: services@trki.sk
 
 # Offer Banner Link
 # Default link is a link to all Sera OnePage products
-banner-link: https://themeforest.net/collections/6069390-sera
+banner-link: https://www.udemy.com/enterprise-php/
 
 ####################################
 ######  Global Social Links   ######
@@ -138,7 +138,7 @@ features:
 
 # Feature
 - title: Hours of best practices
-  description: All content is hosted on Udemy platform as videos. You can watch on any device and an average video length is 7 mins.
+  description: All content is hosted on Udemy platform as videos. You can watch on any device and an average video length is 7 mins. One video a day, sends spaghetti code away.
   icon: pe-7s-video
 
 # Feature
@@ -150,13 +150,13 @@ features:
 #####################################
 ############  Portfolio  ############
 #####################################
-portfolio-title: Free content preview
-portfolio-description: Don't take my word for it. Even though you have 100% money back guarantee, I want to be as fair as possible. Have a look yourself what will you get. I made one video of each course section free to watch. I am fully confident the content of <strong>$this</strong> course will help you <strong>progress</strong> in your career! 
+portfolio-title: Free course content preview
+portfolio-description: Don't take my word for it. Even though you have 100% money back guarantee, I want to be as fair as possible. Have a look yourself what will you get. I made one video of each course section free to watch. I am fully confident the content of <strong>$this</strong> course will help you <strong>progress</strong> in your career!
 
 #
 # Portfolio Grid
 #
-portfolio-categories: [Websites, Logo, Graphic Design, Development, Video, Photography]
+portfolio-categories: [Code reviews, Clean code, SOLID, Design Patterns, Architecture]
 portfolio:
 
 # Portfolio Item
@@ -177,42 +177,15 @@ portfolio:
   image: img-03.jpg
   url: '#'
 
-# Portfolio Item
 - title: S<span class="thin">era</span> Style
   categories: [Websites, Video, Photography]
   image: img-04.jpg
   url: '#'
 
-# Portfolio Item
 - title: S<span class="thin">era</span> Style
   categories: [Development, Logo]
   image: img-05.jpg
   url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Development, Video]
-  image: img-06.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites, Graphic Design]
-  image: img-07.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites , Video]
-  image: img-08.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Photography, Logo]
-  image: img-09.jpg
-  url: '#'
-
 
 #####################################
 ##########  Core Features  ##########
@@ -225,13 +198,19 @@ core-description: The material is prepared using 80:20 rule. You don't need to k
 #
 core-features-left:
 
+
+# Feature
+- name: Code review the right way
+  description: The mindset and my tips whenever you are the author or the reviewer.
+  icon: pe-7s-glasses
+
 # Feature
 - name: Coding standards
   description: All code in your project should be written in the same way.
   icon: pe-7s-note2
 
 # Feature
-- name: Daily clean code
+- name: Daily Clean code
   description: The fundamentals of good software is proper naming. No excuses.
   icon: pe-7s-anchor
 
@@ -246,12 +225,17 @@ core-features-left:
 core-features-right:
 
 # Feature
+- name: MySQL in Docker
+  description: Isolate your ENV and ensure your team has the same infrastructure.
+  icon: pe-7s-server
+
+# Feature
 - name: S.O.L.I.D Principles
   description: You will see me applying each principle in a legacy codebase.
   icon: pe-7s-paint
 
 # Feature
-- name: Design Patterns
+- name: Design Patterns, Symfony
   description: Don't reinvent solutions. Your code challenges were already solved.
   icon: pe-7s-piggy
 
@@ -259,7 +243,6 @@ core-features-right:
 - name: Architecture
   description: You will be able to design ANY system regardless its complexity.
   icon: pe-7s-display1
-
 
 #####################################
 ########### Testimonials ############
@@ -308,15 +291,19 @@ testimonials:
 #####################################
 ############# Our Blog ##############
 #####################################
-blog-title: Our Blog
-blog-description: Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+blog-title: Blog
+blog-description: “... a mind needs books as a sword needs a whetstone, if it is to keep its edge.”
 
 
 #####################################
 ############### Team ################
 #####################################
-team-title: Meet Our Team
-team-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+team-title: About the author
+team-description: "Hi, I'm Lukas! Currently a Technical lead at a core trivago project even though only 4 years ago I started as a Junior developer fixing bugs."
+team-description-2: "In last 2 years I rebuilt a legacy bidding application processing millions of bids each day from advertisers such a Booking.com and now I am designing/developing a tool uploading hundreds of millions ads daily to Google."
+team-description-3: "I started mentoring developers as part of my responsibilities at trivago and helping others grew into a passion so I became a Udemy instructor."
+team-description-4: "Looking forward for our cooperation!"
+
 
 #
 # Team Members
@@ -324,56 +311,13 @@ team-description: Nulla a tellus at turpis gravida congue non interdum et malesu
 team:
 
 # Team Member
-- name: Jack Skilton
-  tagline: Graphic Designer
-  avatar: avatar-01.jpg
+- name: Lukas Lukac
+  tagline: Technical Lead
+  avatar: author_profile.jpg
 
   # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
-
-# Team Member
-- name: James Young
-  tagline: Developer
-  avatar: avatar-02.jpg
-
-  # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
-
-# Team Member
-- name: Johnatan Doe
-  tagline: Hacker
-  avatar: avatar-04.jpg
-
-  # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
-
-# Team Member
-- name: Ecaterina Doe
-  tagline: Support Expert
-  avatar: avatar-03.jpg
-
-  # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
+  facebook: 'https://facebook.com/lukas.lukac'
+  twitter: 'https://twitter.com/EnchanterIO'
 
 
 #####################################
@@ -416,14 +360,14 @@ plan-ultimate-url: '#'
 #####################################
 ############   Contact   ############
 #####################################
-contact-title: Contact Us
-contact-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
+contact-title: Wanna talk?
+contact-description: Are you missing something in the course? Do you have a doubt? Are you looking for a mentor? Let's get in touch.
 
 
 #####################################
 #############   Footer   ############
 #####################################
-footer-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
-footer-copyright-text: Gleesik&trade;
-footer-copyright-url: http://gleesik.ro/
-footer-copyright-year: 2016
+footer-description: This course is designed for YOU! Below is my Twitter account, you can write me a message any time if you have any question regarding the course or any other topic. Looking forward for connecting with you!
+footer-copyright-text: Lukas Lukac
+footer-copyright-url: https://www.linkedin.com/in/llukac
+footer-copyright-year: 2017-2018
