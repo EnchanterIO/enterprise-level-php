@@ -13,7 +13,9 @@ exclude: ["node_modules", "gulpfile.js", "package.json", "README.md"]
 #######################################################
 
 # This is your site title
-title: Writing Enterprise Level PHP
+title: "Course: Writing Enterprise Level PHP"
+description: "Learn how to write HQ maintainable software. Legacy code doesn't have to suck!"
+default_blog_image: enterprise_level_php_course_thumbnail.jpg
 # Website language
 lang: en-US
 # Header Title
@@ -64,6 +66,7 @@ youtube: '#'
 pinterest: '#'
 facebook: 'https://www.facebook.com/lukas.lukac'
 twitter: 'https://twitter.com/EnchanterIO'
+twitter_username: 'EnchanterIO'
 linkedin: 'https://www.linkedin.com/in/llukac'
 google-plus: '#'
 vimeo: '#'
