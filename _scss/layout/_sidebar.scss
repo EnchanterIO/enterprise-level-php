@@ -6,26 +6,28 @@
  *
  **/
 
+
+
+ // Widget
+ .widget {
+   margin-bottom: 60px;
+
+   // Widget Header
+   header.widget-header {
+     padding: 24px 30px;
+     color: $sidebar-title;
+     margin-bottom: 30px;
+     background-color: $sidebar-header;
+
+     h4.widget-title {
+       font-size: 1.25rem;
+       text-transform: uppercase;
+     }
+   }
+
+ }
+
 aside.site-sidebar {
-
-  // Widget
-  .widget {
-    margin-bottom: 60px;
-
-    // Widget Header
-    header.widget-header {
-      padding: 24px 30px;
-      color: $sidebar-title;
-      margin-bottom: 30px;
-      background-color: $sidebar-header;
-
-      h4.widget-title {
-        font-size: 1.25rem;
-        text-transform: uppercase;
-      }
-    }
-
-  }
 
   // About Widget
   .about-widget {
@@ -131,33 +133,33 @@ aside.site-sidebar {
 
     }
   }
+}
 
-  // Newsletter Widget
-  .newsletter-widget {
-    .widget-content {
 
-      form.newsletter-email-signup {
-        .field-group {
-          margin-bottom: 20px;
+// Newsletter Widget
+.newsletter-widget {
+  .widget-content {
 
-          input {
-            border-width: 2px;
-            padding: 20px;
-          }
-        }
+    form.newsletter-email-signup {
+      .field-group {
+        margin-bottom: 20px;
 
-        .button-subscribe {
+        input {
+          border-width: 2px;
           padding: 20px;
-          text-transform: uppercase;
-          letter-spacing: 0.08rem;
-        }
-
-        p {
-          margin-top: 10px;
         }
       }
 
-    }
-  }
+      .button-subscribe {
+        padding: 20px;
+        text-transform: uppercase;
+        letter-spacing: 0.08rem;
+      }
 
+      p {
+        margin-top: 10px;
+      }
+    }
+
+  }
 }

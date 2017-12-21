@@ -3671,18 +3671,18 @@ section.site-section.next-section-indicator:after {
  *  @package gleesik_layout
  *
  **/
-aside.site-sidebar .widget {
+.widget {
   margin-bottom: 60px;
 }
 
-aside.site-sidebar .widget header.widget-header {
+.widget header.widget-header {
   padding: 24px 30px;
   color: #2c3e50;
   margin-bottom: 30px;
   background-color: #f4f8f9;
 }
 
-aside.site-sidebar .widget header.widget-header h4.widget-title {
+.widget header.widget-header h4.widget-title {
   font-size: 1.25rem;
   text-transform: uppercase;
 }
@@ -3756,22 +3756,22 @@ aside.site-sidebar .categories-widget .widget-content ul.categories-box li:last-
   border-bottom: 0;
 }
 
-aside.site-sidebar .newsletter-widget .widget-content form.newsletter-email-signup .field-group {
+.newsletter-widget .widget-content form.newsletter-email-signup .field-group {
   margin-bottom: 20px;
 }
 
-aside.site-sidebar .newsletter-widget .widget-content form.newsletter-email-signup .field-group input {
+.newsletter-widget .widget-content form.newsletter-email-signup .field-group input {
   border-width: 2px;
   padding: 20px;
 }
 
-aside.site-sidebar .newsletter-widget .widget-content form.newsletter-email-signup .button-subscribe {
+.newsletter-widget .widget-content form.newsletter-email-signup .button-subscribe {
   padding: 20px;
   text-transform: uppercase;
   letter-spacing: 0.08rem;
 }
 
-aside.site-sidebar .newsletter-widget .widget-content form.newsletter-email-signup p {
+.newsletter-widget .widget-content form.newsletter-email-signup p {
   margin-top: 10px;
 }
 

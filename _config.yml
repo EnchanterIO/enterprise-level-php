@@ -62,8 +62,9 @@ banner-link: https://www.udemy.com/enterprise-php/
 ####################################
 youtube: '#'
 pinterest: '#'
-facebook: '#'
-twitter: '#'
+facebook: 'https://www.facebook.com/lukas.lukac'
+twitter: 'https://twitter.com/EnchanterIO'
+linkedin: 'https://www.linkedin.com/in/llukac'
 google-plus: '#'
 vimeo: '#'
 
@@ -75,15 +76,16 @@ vimeo: '#'
 # About Blog Author Widget
 #
 about-widget:
-  author-avatar: avatar-02.jpg
-  author-name: John Doe
-  author-tagline: Blog Author
-  author-info: Cum sociis que penatibus et magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies nec.
+  author-avatar: lukas_lukac_profile.jpg
+  author-name: Lukas Lukac
+  author-tagline: Course Instructor
+  author-info: Software Engineering, Psychology, Starcraft, Protein, Women && Motorbikes addict.
   author-social-links:
     youtube: '#'
     pinterest: '#'
-    facebook: '#'
-    twitter: '#'
+    facebook: 'https://www.facebook.com/lukas.lukac'
+    twitter: 'https://twitter.com/EnchanterIO'
+    linkedin: 'https://www.linkedin.com/in/llukac'
     google-plus: '#'
 
 # Google Map JS api
@@ -302,7 +304,8 @@ team-title: About the author
 team-description: "Hi, I'm Lukas! Currently a Technical lead at a core trivago project even though only 4 years ago I started as a Junior developer fixing bugs."
 team-description-2: "In last 2 years I rebuilt a legacy bidding application processing millions of bids each day from advertisers such a Booking.com and now I am designing/developing a tool uploading hundreds of millions ads daily to Google."
 team-description-3: "I started mentoring developers as part of my responsibilities at trivago and helping others grew into a passion so I became a Udemy instructor."
-team-description-4: "Looking forward for our cooperation!"
+team-description-4: "This course has one purpose. To show you how to write maintainable software you will be proud of. Legacy code doesn't have to suck."
+team-description-5: "Looking for our cooperation!"
 
 
 #
@@ -313,11 +316,12 @@ team:
 # Team Member
 - name: Lukas Lukac
   tagline: Technical Lead
-  avatar: author_profile.jpg
+  avatar: lukas_lukac_profile.jpg
 
   # Social Links
   facebook: 'https://facebook.com/lukas.lukac'
   twitter: 'https://twitter.com/EnchanterIO'
+  linkedin: 'https://www.linkedin.com/in/llukac'
 
 
 #####################################
