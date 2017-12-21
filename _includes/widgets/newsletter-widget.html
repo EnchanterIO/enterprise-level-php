@@ -9,23 +9,17 @@
   <!-- Widget Content -->
   <div class="widget-content">
 
-    <!-- MailChimp Email Form -->
-    <form class="newsletter-email-signup" action="http://twitter.us2.list-manage.com/subscribe/post?u={{ site.mailchimp.user-id }}&amp;id={{ site.mailchimp.list-id }}" method="post" novalidate>
-      <div class="field-group">
-        <label class="hide" for="name">Name</label>
-        <input type="text" value="" name="name" placeholder="Name">
-      </div>
-    	<div class="field-group">
-    		<label class="hide" for="email">Email</label>
-    		<input type="email" value="" name="email" placeholder="Email">
-    	</div>
-
-  	  <!-- bot signup protection - real people won't fill this in -->
-      <input type="text" class="hide" name="b_{{ site.mailchimp.user-id }}_{{ site.mailchimp.list-id }}" tabindex="-1" value="">
-
-      <input type="submit" value="Subscribe" name="subscribe" class="button button-focus button-subscribe">
-
-    </form>
+    <div id="mc_embed_signup">
+      <form action="https://excellentdevelopers.us16.list-manage.com/subscribe/post?u=829e1db7cd28c56d108eb426f&amp;id=4ace744eda" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate newsletter-email-signup" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+          <div class="field-group">
+      	     <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your email" required>
+          </div>
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_829e1db7cd28c56d108eb426f_4ace744eda" tabindex="-1" value=""></div>
+        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button button-focus button-subscribe"></div>
+        </div>
+      </form>
+    </div>
 
   </div>
 

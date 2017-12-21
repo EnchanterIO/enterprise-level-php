@@ -101,9 +101,9 @@ map-lng: 26.102538399999958
 
 # Enter your Mailchimp User ID and Campaign ID
 # @TODO: Add in a link for where to find these
-mailchimp:
-  user-id: REPLACEME
-  list-id: REPLACEME
+
+ga:
+  code: UA-111447513-1
 
 ####
 #
@@ -119,6 +119,7 @@ mailchimp:
 #####################################
 about-title: Welcome
 about-description: In this course I will teach you everything I teach my colleagues on daily basis at trivago. You will watch me refactoring legacy project, building a new one from scratch and designing complex architecture using simple, practical model applicable everywhere​. You will hear me explaining what's the advantage of every single technique. You will learn the <strong>WHY</strong>, <strong>HOW</strong> and also the <strong>WHEN</strong>.
+about-description-2: <strong>You will learn how to write high quality, maintainable software you will be proud of. Legacy code doesn't have to suck!</strong>
 
 questions:
 
@@ -161,7 +162,7 @@ portfolio-description: Don't take my word for it. Even though you have 100% mone
 #
 # Portfolio Grid
 #
-portfolio-categories: [Code reviews, Clean code, SOLID, Design Patterns, Architecture]
+portfolio-categories: [Clean code, SOLID, Design Patterns, Architecture]
 portfolio:
 
 # Portfolio Item
@@ -326,6 +327,12 @@ team:
   twitter: 'https://twitter.com/EnchanterIO'
   linkedin: 'https://www.linkedin.com/in/llukac'
 
+
+#####################################
+########## Target audience ###########
+#####################################
+audience-title: Is this course for me?
+audience-description: Investing in yourself few dollars now, will generate you thousands dollars in the future.
 
 #####################################
 ########## Pricing Tables ###########
