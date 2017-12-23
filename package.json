@@ -9,7 +9,8 @@
   "author": "Daniel Costrășel",
   "license": "ISC",
   "dependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "jekyll": "^3.0.0-beta1"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
