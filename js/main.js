@@ -202,5 +202,13 @@
 
   });
 
+    /**
+     * Open blog links in a new tab, as markdown doesn't support it
+     */
+    var links = $('.article-content a');
+    for (var i = 0, length = links.length; i < length; i++) {
+        links[i].target = '_blank';
+    }
+
 }(window.jQuery, window, document));
 // The global jQuery object is passed as a parameter
