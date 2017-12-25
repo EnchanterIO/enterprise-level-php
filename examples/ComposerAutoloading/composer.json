@@ -1,0 +1,17 @@
+{
+    "name": "enterprise-php/composer-autoloading",
+    "description": "An example how Composer works behind the scenes.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Lukas Lukac",
+            "email": "services@trki.sk"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Christmas\\": "src/Christmas"
+        }
+    }
+}

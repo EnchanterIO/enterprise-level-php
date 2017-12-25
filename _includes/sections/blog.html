@@ -52,7 +52,7 @@
                 <div class="time">{{ post.date | date: "%H:%M" }}</div>
               </div>
               <div class="article-text">
-                {{ post.excerpt }}
+                {{ post.content | truncatewords: 30 }}
               </div>
               <div class="show-more">
                 <a href="{{ site.baseurl }}{{ post.url }}" class="button">Read More</a>
