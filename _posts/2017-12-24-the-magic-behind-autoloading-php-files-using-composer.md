@@ -5,7 +5,7 @@ description: "Do you still remember how we used load PHP Classes using require_o
 Symfony dynamically resolve Namespaces."
 tagline: Best PHP Dependency Manager
 tags: [php, composer, namespaces, autoloading, require_once]
-date: 2017-12-25 22:11
+date: 2017-12-25 21:11
 image: composer_autoloading.jpg
 ---
 
