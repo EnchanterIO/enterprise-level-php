@@ -419,7 +419,7 @@ One way or the other, the output of running ```php index.php``` will be, and I w
 #### Summary
 
 If you want to play further with the code, you can find it all in this GitHub [directory](https://github
-.com/EnchanterIO/enterprise-level-php/tree/landing-page/examples/ComposerAutoloading).
+.com/EnchanterIO/enterprise-level-php/tree/master/examples/ComposerAutoloading).
 
 Thank you for your time reading my first technical article on **Enterprise Level PHP**.
 
