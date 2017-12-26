@@ -27,6 +27,7 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/code_highlight.css">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
 
+  {% if jekyll.environment == 'production' %}
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111447513-1"></script>
   <script>
@@ -36,5 +37,6 @@
 
     gtag('config', '{{ site.ga.code }}');
   </script>
+  {% endif %}
 
 </head>
