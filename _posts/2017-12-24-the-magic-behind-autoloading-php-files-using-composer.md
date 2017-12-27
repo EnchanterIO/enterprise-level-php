@@ -35,6 +35,8 @@ only aliasing your **Namespaces** so you can use shortcuts or include **Classes*
 E.g:
 
 ```php
+<?php
+
 // You can do this at the top of your Class
 use Symfony\Component\Debug\Debug;
 
