@@ -420,6 +420,11 @@ One way or the other, the output of running ```php index.php``` will be, and I w
 
 #### Summary
 
+Composer is basically a PHP Class that is registered as a file loader using SPL [function](http://php
+.net/manual/en/function.spl-autoload-register.php). Composer behind the scenes will execute the [include](http://php
+.net/manual/en/function.include.php) statement after it finds the file using [PSR-4](www.php-fig.org/psr/psr-4/) and 
+[PSR-0](www.php-fig.org/psr/psr-0/) naming standards based on your settings in **composer.json**.
+
 If you want to play further with the code, you can find it all in this GitHub [directory](https://github
 .com/EnchanterIO/enterprise-level-php/tree/master/examples/ComposerAutoloading).
 
