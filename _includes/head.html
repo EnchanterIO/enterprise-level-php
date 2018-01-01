@@ -3,7 +3,7 @@
   <meta charset="utf-8" />
   <title>{{ page.title | strip_html }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="shortcut icon" href="{{ site.baseurl }}/images/php_favicon.png" title="Favicon" />
+  <link rel="shortcut icon" href="{{ site.host }}/images/php_favicon.png" title="Favicon" />
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 
   <meta name="title" content="{{ page.title | default: site.title }}">
@@ -13,14 +13,14 @@
   <meta property="og:type" content="article" />
   <meta property="og:title" content="{{ page.title | default: site.title }}" />
   <meta property="og:description" content="{{ page.description | default: site.description }}" />
-  <meta property="og:image" content="{{ site.baseurl }}/images/blog/{{ page.image | default: site.default_blog_image }}" />
+  <meta property="og:image" content="{{ site.host }}/images/blog/{{ page.image | default: site.default_blog_image }}" />
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@{{ site.twitter_username }}">
   <meta name="twitter:title" content="{{ page.title | default: site.title }}">
   <meta name="twitter:description" content="{{ page.description | default: site.description }}">
   <meta name="twitter:creator" content="@{{ site.twitter_username }}">
-  <meta name="twitter:image" content="{{ site.baseurl }}/images/blog/{{ page.image | default: site.default_blog_image }}">
+  <meta name="twitter:image" content="{{ site.host }}/images/blog/{{ page.image | default: site.default_blog_image }}">
 
   <!-- Importing Styles -->
   <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
