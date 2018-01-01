@@ -35,16 +35,12 @@
         <nav id="navMenu" class="nav-menu">
           <ul class="menu">
             <li><a href="{{ site.baseurl }}/index.html#course">Course</a></li>
-            <li><a href="{{ site.baseurl }}/index.html#about">About</a></li>
-            <li><a href="{{ site.baseurl }}/index.html#content">Content</a></li>
-            <!-- <li><a href="{{ site.baseurl }}/index.html#portfolio">Sneak peek</a></li> -->
-            <li><a href="{{ site.baseurl }}/index.html#benefits">Benefits</a></li>
-            <!-- <li><a href="{{ site.baseurl }}/index.html#testimonials">Testimonials</a></li> -->
-            <li><a href="{{ site.baseurl }}/index.html#team">Author</a></li>
-            <li><a href="{{ site.baseurl }}/index.html#audience">Audience</a></li>
-            <li><a href="{{ site.baseurl }}/index.html#prices">Prices</a></li>
-            <li><a href="{{ site.baseurl }}/index.html#contact">Contact</a></li>
-            <li class="current-menu-item"><a href="{{ site.baseurl }}/index.html#blog">Blog</a></li>
+            <li {% if page.url == "/blog.html" %}class="current-menu-item"{% endif %}>
+                <a href="{{ site.baseurl }}/blog.html">Blog</a>
+            </li>
+            <li {% if page.url == "/365-software-development-tips.html" %}class="current-menu-item"{% endif %}>
+                <a href="{{ site.baseurl }}/365-software-development-tips.html">365 Software Development Tips</a>
+            </li>
           </ul>
         </nav>
 

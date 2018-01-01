@@ -1,0 +1,48 @@
+---
+layout: page
+tagline: 1 wisdom a day, keeps spaghetti code away!
+title: <strong>365</strong> Software Development Tips
+description: Learn bit by bit regularly. Each day of 2018, I will publish one wisdom of the day.
+---
+
+<p>Each day of 2018 you will find on this page 1 new short tip, good practice that will help you progress in your career.</p>
+
+<div class="page-tips">
+    <article class="page-tips-wisdom-container">
+        <h1>Wisdom of the day</h1>
+        <blockquote>
+            {% assign lastTip = site.tips_365 | last %}
+            {{ lastTip.description }}
+        </blockquote>
+
+        <a class="twitter-share-button"
+           data-size="large"
+           href="https://twitter.com/intent/tweet?text={{ lastTip.description }}%20by%20@EnchanterIO">
+        Tweet
+        </a>
+    </article>
+
+    <p class="page-tips-newsletter-arrow-container">
+        <i class="pe-7s-left-arrow hidden-xs hidden-sm"></i>
+        <i class="pe-7s-bottom-arrow hidden-lg hidden-md"></i>
+        Sign for the newsletter to receive once a week email with: <strong>7 tips + 1 blog post</strong>.
+    </p>
+
+    <div class="hidden-lg hidden-md">
+        {% include widgets/newsletter-widget.html %}
+    </div>
+
+    <aside class="page-tips-history">
+        <h3>History</h3>
+        <ul class="page-tips-history-list">
+
+            {% for tip in site.tips_365 %}
+            <li class="page-tips-history-list-item">
+                <div class="page-tips-history-list-item-title">Day #{{ tip.id }}</div>
+                <p class="page-tips-history-list-item-description">{{ tip.description }}</p>
+                <small class="page-tips-history-list-item-date">{{ tip.date }}</small>
+            </li>
+            {% endfor %}
+        </ul>
+    </aside>
+</div>

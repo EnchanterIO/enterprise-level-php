@@ -4997,3 +4997,41 @@ footer.site-footer .footer-copyright {
 footer.site-footer .footer-copyright .footer-text {
   width: 100%;
 }
+
+.page-tips .page-tips-wisdom-container {
+  min-height: 265px;
+}
+
+.page-tips blockquote {
+  margin: 50px 0;
+  float: none;
+  font-size: 1.4rem;
+}
+
+.page-tips .page-tips-newsletter-arrow-container i {
+  margin-right: 5px;
+  font-size: 50px;
+  vertical-align: middle;
+}
+
+.page-tips .page-tips-history {
+  margin: 50px 0;
+}
+
+.page-tips .page-tips-history .page-tips-history-list {
+  margin: 20px 0;
+}
+
+.page-tips .page-tips-history .page-tips-history-list-item {
+  border-bottom: solid 1px #21c2f8;
+  padding: 20px;
+}
+
+.page-tips .page-tips-history .page-tips-history-list-item .page-tips-history-list-item-title {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.page-tips .page-tips-history .page-tips-history-list-item .page-tips-history-list-item-date {
+  font-size: 0.6rem;
+}

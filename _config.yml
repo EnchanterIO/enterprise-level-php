@@ -134,7 +134,7 @@ questions:
 #####################################
 #############  Features  ############
 #####################################
-features-title: Features
+features-title: Benefits
 features-description: "I want this course to be as practical as possible. You are a <strong>developer</strong>, not an academic! By joining <strong>$this</strong> course you will get:"
 
 #
@@ -326,6 +326,14 @@ team:
   facebook: 'https://facebook.com/lukas.lukac'
   twitter: 'https://twitter.com/EnchanterIO'
   linkedin: 'https://www.linkedin.com/in/llukac'
+
+#
+# 365 development tips
+#
+tips_365:
+- id: 1
+  description: A Domain Object represents my domain and is UNAWARE of storage and persistence.
+  date: 01.01.2018
 
 
 #####################################
