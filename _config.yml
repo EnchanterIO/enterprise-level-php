@@ -335,6 +335,10 @@ tips_365:
   description: A Domain Object represents my domain and is UNAWARE of storage and persistence.
   date: 01.01.2018
 
+- id: 2
+  description: No, Microservices won't fix your broken monolith. Proper Scope encapsulation, S.O.L.I.D principles and Design Patterns will.
+  date: 02.01.2018
+
 
 #####################################
 ########## Target audience ###########
