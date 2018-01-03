@@ -339,6 +339,10 @@ tips_365:
   description: No, Microservices won't fix your broken monolith. Proper Scope encapsulation, S.O.L.I.D principles and Design Patterns will.
   date: 02.01.2018
 
+- id: 3
+  description: Setters in OOP is just pure evil. Setters and that unfortunate USA president.
+  date: 03.01.2018
+
 
 #####################################
 ########## Target audience ###########
