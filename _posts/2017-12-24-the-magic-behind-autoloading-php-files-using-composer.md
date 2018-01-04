@@ -106,7 +106,7 @@ running
 
 // /ComposerAutoloading/src/index.php
 
-require_once 'Christmas/Santa.php';
+require_once __DIR__.'/Christmas/Santa.php';
 
 $santa = new \Christmas\Santa();
 $santa->sayIt(); // Merry Christmas && Write HQ code!
@@ -139,7 +139,7 @@ Ehm Lukas but... I don't have any **autoload.php** file nor **vendor** folder.
 
 Well, that's your problem.
 
-Naaah, is Christmas. Let me show you how to generate them.
+Naaah, it's Christmas. Let me show you how to generate them.
 
 Everything starts with **composer.json** file. Run:
 
@@ -171,11 +171,8 @@ and wuala, **composer.json** without any dependencies, as we don't need them to 
 Now you can generate the **autoload.php** by running:
 
 ```bash
-composer install
+composer dump-autoload
 
-    Loading composer repositories with package information
-    Updating dependencies (including require-dev)
-    Nothing to install or update
     Generating autoload files
 ```
 
@@ -185,9 +182,7 @@ The moment you included **autoload.php** in your **index.php**
 require __DIR__.'/../vendor/autoload.php';
 ```
 
-you triggered Standard PHP Library (SPL) [function](http://php.net/manual/en/function.spl-autoload-register.php) ```spl_autoload_register(callable $autoloadFunction)``` the 
-composer is using to register itself to take over the responsibility of autoloading PHP files on runtime (common 
-Classes can be pre-cached).
+you triggered Standard PHP Library (SPL) [function](http://php.net/manual/en/function.spl-autoload-register.php) ```spl_autoload_register(callable $autoloadFunction)``` the composer is using to register itself to take over the responsibility of autoloading PHP files on runtime (Classes that are used in most request can be pre-loaded).
 
 ```php
 // /ComposerAutoloading/vendor/composer/ClassLoader.php
@@ -345,7 +340,7 @@ directory structure is defined):
 }
 ```
 
-which would result after running ```composer install``` to a new Hash file:
+which would result after running `composer dump-autoload` to a new Hash file:
 
 ```php
 <?php
@@ -397,7 +392,7 @@ _Every time you will try to find a **Class** with **Namespace** starting with "C
 }
 ```
 
-Once again, after running ```composer install``` you will get a new Hash like structured file **autoload_psr4.php**:
+Once again, after running ```composer dump-autoload``` you will get a new Hash like structured file **autoload_psr4.php**:
 
 ```php
 <?php
@@ -420,8 +415,10 @@ One way or the other, the output of running ```php index.php``` will be, and I w
 
 #### Summary
 
-Composer is basically a PHP Class that is registered as a file loader using SPL [function](http://php
-.net/manual/en/function.spl-autoload-register.php). Composer behind the scenes will execute the [include](http://php
+Composer is mainly a dependency manager but it's doing a fantastic job of auto-loading internal, external (libraries, dependencies) PHP Classes using its **ClassLoader.php** registered as a file loader using SPL [function](http://php
+.net/manual/en/function.spl-autoload-register.php).
+
+Composer behind the scenes executes the [include](http://php
 .net/manual/en/function.include.php) statement after it finds the file using [PSR-4](www.php-fig.org/psr/psr-4/) and 
 [PSR-0](www.php-fig.org/psr/psr-0/) naming standards based on your settings in **composer.json**.
 
@@ -430,10 +427,8 @@ If you want to play further with the code, you can find it all in this GitHub [d
 
 Thank you for your time reading my first technical article on **Enterprise Level PHP**.
 
-I am also happy to announce the launch of my course for Junior, Advanced PHP Developers dedicated to software quality
-and maintainable code!!!
+I am also happy to announce the launch of my course for Junior, Advanced PHP Developers dedicated to software quality and maintainable code!!!
 
-It's my first project launch and I have very few Twitter followers therefore if you could re-tweet it and spread the 
-word I would be EXTREMELY HAPPY.
+It's my first project launch and I have very few Twitter followers therefore if you could re-tweet it and spread the word I would be EXTREMELY HAPPY.
 
 [Read more about the course!](https://enterprise-level-php.com/)
