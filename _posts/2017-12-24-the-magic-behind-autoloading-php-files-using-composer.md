@@ -98,7 +98,7 @@ Fatal error:  Uncaught Error: Class 'Santa' not found
 
 So, to be able to initialize the Santa Class, you have to import it to your **Global Namespace** of **index.php** by 
 running
-```require_once($filePath)``` which behind the scenes will execute the [include](http://php.net/manual/en/function
+`require_once($filePath)` which behind the scenes will execute the [include](http://php.net/manual/en/function
 .include.php) statement.
 
 ```php
@@ -118,7 +118,7 @@ This is of course a good solution but un-scalable one as the project size would 
 
 Composer, PHP Composer ;)
 
-Instead of manually typing ```require_once``` every single time you want to include code from a different file you 
+Instead of manually typing `require_once` every single time you want to include code from a different file you 
 just import an auto-generated, self explanatory Composer file called: **autoload.php**.
 
 Like Symfony does in it's frontend controllers: [index.php/app.php/app_dev.php/console.php](https://github.com/symfony/demo/blob/master/public/index.php#L17)
@@ -179,12 +179,16 @@ composer dump-autoload
 The moment you included **autoload.php** in your **index.php**
 
 ```php
+<?php
+
 require __DIR__.'/../vendor/autoload.php';
 ```
 
-you triggered Standard PHP Library (SPL) [function](http://php.net/manual/en/function.spl-autoload-register.php) ```spl_autoload_register(callable $autoloadFunction)``` the composer is using to register itself to take over the responsibility of autoloading PHP files on runtime (Classes that are used in most request can be pre-loaded).
+you triggered Standard PHP Library (SPL) [function](http://php.net/manual/en/function.spl-autoload-register.php) `spl_autoload_register(callable $autoloadFunction)` the composer is using to register itself to take over the responsibility of autoloading PHP files on runtime (Classes that are used in most request can be pre-loaded).
 
 ```php
+<?php
+
 // /ComposerAutoloading/vendor/composer/ClassLoader.php
 
 /**
@@ -208,10 +212,11 @@ Fatal error:  Uncaught Error: Class 'Santa' not found
 
 Damn, Santa is still not found. That's pretty bad. Why?
 
-Well, the registered **ClassLoader** executes the following ```loadClass($class)``` method (shortened, adjusted for 
+Well, the registered **ClassLoader** executes the following `loadClass($class)` method (shortened, adjusted for 
 simplicity):
 
 ```php
+<?php
 
 // /ComposerAutoloading/vendor/composer/ClassLoader.php
 
@@ -359,6 +364,8 @@ return array(
 Therefore the Composer Class lookup will be straight forward:
 
 ```php
+<?php
+
 public function findFile($class)
 {
     // class map lookup
@@ -392,7 +399,7 @@ _Every time you will try to find a **Class** with **Namespace** starting with "C
 }
 ```
 
-Once again, after running ```composer dump-autoload``` you will get a new Hash like structured file **autoload_psr4.php**:
+Once again, after running `composer dump-autoload` you will get a new Hash like structured file **autoload_psr4.php**:
 
 ```php
 <?php
@@ -409,7 +416,7 @@ return array(
 );
 ```
 
-One way or the other, the output of running ```php index.php``` will be, and I wish you too:
+One way or the other, the output of running `php index.php` will be, and I wish you too:
 
 > Merry Christmas && Write HQ code!
 
