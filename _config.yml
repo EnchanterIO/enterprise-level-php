@@ -348,6 +348,10 @@ tips_365:
   Right Intel/Apple/Every damn company after year 2000?"
   date: 04.01.2018
 
+- id: 5
+  description: "A Class name should be a noun."
+  date: 05.01.2018
+
 
 #####################################
 ########## Target audience ###########
