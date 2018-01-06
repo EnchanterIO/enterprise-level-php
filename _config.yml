@@ -352,6 +352,10 @@ tips_365:
   description: "A Class name should be a noun."
   date: 05.01.2018
 
+- id: 6
+  description: "Don’t accept illogical tasks! | Moein Akbarof"
+  date: 06.01.2018
+
 
 #####################################
 ########## Target audience ###########
