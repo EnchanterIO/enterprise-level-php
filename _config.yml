@@ -356,6 +356,10 @@ tips_365:
   description: "Don’t accept illogical tasks! | Moein Akbarof"
   date: 06.01.2018
 
+- id: 7
+  description: "Use Composer to manage your dependencies and for Class auto-loading. https://dev.to/enchanterio/the-magic-behind-autoloading-php-files-using-composer-1e19"
+  date: 07.01.2018
+
 
 #####################################
 ########## Target audience ###########
