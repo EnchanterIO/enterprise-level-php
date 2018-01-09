@@ -364,6 +364,10 @@ tips_365:
   description: Avoid NULL. No Null, no need for IF(is_null(...)) condition, always valid state, no problem.
   date: 08.01.2018
 
+- id: 9
+  description: Your soft skills are as important as your technical skills.
+  date: 09.01.2018
+
 #This could be useful when I write a page about the C4 model
 #- id: 8
 #  description: As a Class, Object should have one responsibility, a technical diagram should have one purpose. Avoid
