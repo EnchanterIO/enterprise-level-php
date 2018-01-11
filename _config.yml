@@ -118,24 +118,27 @@ ga:
 #############   About   #############
 #####################################
 about-title: Welcome
-about-description: In this course I will teach you everything I teach my colleagues on daily basis at trivago. You will watch me refactoring legacy project, building a new one from scratch and designing complex architecture using simple, practical model applicable everywhere​. You will hear me explaining what's the advantage of every single technique. You will learn the <strong>WHY</strong>, <strong>HOW</strong> and also the <strong>WHEN</strong>.
-about-description-2: <strong>You will learn how to write high quality, maintainable software you will be proud of. Legacy code doesn't have to suck!</strong>
+about-description: "During this course, you will be introduced to the many techniques and best practices that I've
+learned throughout my coding journey.  Together we will work on refactoring a legacy project, building a new one from
+ scratch and designing complex architecture. We will focus on using simple, practical models and processes that are
+ applicable in any software application​."
+about-description-2: "Through every step of this journey, we will critique what is the right path to take to solve
+technical problems such that you are adequately equipped to take on complex of software projects."
 
 questions:
 
-# Feature
-- title: How easy are you able to add a feature into your existing project?
-  description: 'If the answer is: "Well, after 5x WTF, what the hell, why this bug again, you are able to add it." then you are in a good place.'
-
-- title: Are you proud of the code you are writing? Are you well paid?
-  description: I was there as well. 4 years ago. It sucks. Writing average code and afraid of feedback. <strong>Don't worry!</strong> It's normal. You just need a mentor, enthusiasm and a bit of practice.
+- title: Are you creating more bugs than you're fixing?
+- title: Do you feel uncomfortable receiving feedback on your code?
+- title: Are you stuck with complex software that needs refactoring?
+- title: Do you want to improve your skills to keep up with best practises?
 
 
 #####################################
 #############  Features  ############
 #####################################
 features-title: Benefits
-features-description: "I want this course to be as practical as possible. You are a <strong>developer</strong>, not an academic! By joining <strong>$this</strong> course you will get:"
+features-description: "I want this course to be as practical as possible. By joining <strong>$this</strong> course
+you will gain:"
 
 #
 # Features
@@ -149,7 +152,8 @@ features:
 
 # Feature
 - title: Personal Support
-  description: I was in your shoes few years ago. I remember very well how many questions did I have to ask my teammates in my first job. If you have any question, a doubt, I will be there for YOU, answering questions 24/7.
+  description: "I was in your shoes few years ago. I remember very well how many questions did I have to ask my
+  teammates in my first job. If you have any question or a doubt, I will be there for YOU, answering questions 24/7."
   icon: pe-7s-user
 
 
@@ -197,7 +201,7 @@ portfolio:
 ##########  Core Features  ##########
 #####################################
 core-title: Content
-core-description: The material is prepared using 80:20 rule. You don't need to know 3485793 design patterns to write excellent software. You need to know the main and the most commonly used principles to solve day to day business challenges.
+core-description: The material for this course is based on the 80/20 rule. As such, you should not be expected to know thousands of design patterns to write excellent software. Instead, your goal should be to know the most commonly used principles that are considered best-practice within the software engineering community.
 
 #
 # Core Features Left
@@ -232,17 +236,17 @@ core-features-right:
 
 # Feature
 - name: MySQL in Docker
-  description: Isolate your ENV and ensure your team has the same infrastructure.
+  description: Isolate your environements so your team has the same infrastructure.
   icon: pe-7s-server
 
 # Feature
 - name: S.O.L.I.D Principles
-  description: You will see me applying each principle in a legacy codebase.
+  description: Together, we will refactor a legacy codebase step by step.
   icon: pe-7s-paint
 
 # Feature
 - name: Design Patterns, Symfony
-  description: Don't reinvent solutions. Your code challenges were already solved.
+  description: Don't re-invent solutions. Apply industry standards.
   icon: pe-7s-piggy
 
 # Feature
@@ -305,11 +309,14 @@ blog-description: “... a mind needs books as a sword needs a whetstone, if it 
 ############### Team ################
 #####################################
 team-title: About the author
-team-description: "Hi, I'm Lukas! Currently a Technical lead at a core trivago project even though only 4 years ago I started as a Junior developer fixing bugs."
-team-description-2: "In last 2 years I rebuilt a legacy bidding application processing millions of bids each day from advertisers such a Booking.com and now I am designing/developing a tool uploading hundreds of millions ads daily to Google."
-team-description-3: "I started mentoring developers as part of my responsibilities at trivago and helping others grew into a passion so I became a Udemy instructor."
-team-description-4: "This course has one purpose. To show you how to write maintainable software you will be proud of. Legacy code doesn't have to suck."
-team-description-5: "Looking for our cooperation!"
+team-description: "Hi, I am Lukas!"
+team-description-2: "I work at trivago as a technical lead on a project that directly contributes to 40% of all of
+trivago's incoming traffic."
+team-description-3: "Previous to this role I was the technical lead on a bidding platform that was responsible for
+processing millions of bids each day from advertisers such as booking.com and expedia.com."
+team-description-4: "I started mentoring developers as part of my day to day responsibilities at trivago. Helping
+others grew into a passion and I have since become a Udemy instructor."
+team-description-5: "I am looking forward to working with you!"
 
 
 #
@@ -379,13 +386,13 @@ tips_365:
 ########## Target audience ###########
 #####################################
 audience-title: Is this course for me?
-audience-description: Investing in yourself few dollars now, will generate you thousands dollars in the future.
+audience-description: If you invest in yourself today, your skills and experience will pay off tomorrow.
 
 #####################################
 ########## Pricing Tables ###########
 #####################################
 pricing-title: Course prices
-pricing-description: Investing in yourself few dollars now, will generate you thousands dollars in the future.
+pricing-description: If you invest in yourself today, your skills and experience will pay off tomorrow.
 
 #
 # Plan Personal
@@ -399,6 +406,11 @@ plan-regular-url: 'https://www.udemy.com/enterprise-php/'
 plan-sale-price: $19
 plan-sale-url: 'https://www.udemy.com/enterprise-php/?couponCode=FIRST_50_STUDENTS'
 
+#
+# Plan Mentor
+#
+plan-mentor-price: $99
+plan-mentor-url: 'services@trki.sk'
 
 #####################################
 ############   Contact   ############
@@ -411,7 +423,7 @@ contact-description: Are you missing something in the course? Do you have a doub
 #############   Footer   ############
 #####################################
 footer-description: "Course <strong>Writing Enterprise Level PHP Code</strong> is designed for YOU!"
-footer-description2: "Below is my Twitter account. Write me a message ANY time you have a question, doubt, idea
+footer-description2: "Below is my Twitter account. Write me a message at ANY time you have a question, doubt, idea
 regarding the course OR you want to discuss ANY other topic. Looking forward our geeky discussion!"
 footer-copyright-text: Lukas Lukac
 footer-copyright-url: https://www.linkedin.com/in/llukac

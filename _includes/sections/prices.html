@@ -28,9 +28,9 @@
 
             <!-- Plan Head -->
             <div class="plan-head">
-              <h3 class="plan-title">Regular</h3>
+              <h3 class="plan-title">Student</h3>
               <hr class="normal">
-              <p class="plan-subtitle">Normal price: <span class="text-focus">{{ site.plan-regular-price }}</span></p>
+              <p class="plan-subtitle">Regular price: <span class="text-focus">{{ site.plan-regular-price }}</span></p>
             </div>
 
             <!-- Plan Content -->
@@ -61,7 +61,10 @@
               <div class="offer">Offer</div>
               <h3 class="plan-title">Course Launch</h3>
               <hr class="normal">
-              <p class="plan-subtitle">Current price: <span class="text-focus">{{ site.plan-sale-price }}</span> for first 50 students!</p>
+              <p class="plan-subtitle"><span class="text-focus">{{ site.plan-sale-price
+                }}</span> for
+                first
+                50 students!</p>
               <p class="plan-subtitle">Udemy coupon code: <span class="text-focus">FIRST_50_STUDENTS</span></p>
             </div>
 
@@ -83,6 +86,47 @@
 
           </div>
         </div>
+
+        <!-- Pricing Table -->
+        <div class="col-md-3 col-md-push-0 col-sm-4 col-sm-push-0 col-xs-8 col-xs-push-2">
+          <div class="pricing-table">
+
+            <!-- Plan Head -->
+            <div class="plan-head">
+              <h3 class="plan-title">Mentor</h3>
+              <hr class="normal">
+              <p class="plan-subtitle">Investment: <span class="text-focus">{{ site.plan-mentor-price }}</span></p>
+            </div>
+
+            <!-- Plan Content -->
+            <div class="plan-content">
+              <h4 class="feature-title"><i class="pe-7s-video check"></i> 3+ hours of video</h4>
+              <hr class="separator">
+              <h4 class="feature-title"><i class="pe-7s-menu check"></i> 32+ technical topics</h4>
+              <hr class="separator">
+              <h4 class="feature-title"><i class="pe-7s-leaf check"></i> Free future content</h4>
+              <hr class="separator">
+              <h4 class="feature-title"><i class="pe-7s-user check"></i> Personal support</h4>
+              <hr class="separator">
+              <h4 class="feature-title"><i class="pe-7s-map-2 check"></i> Post-course mentoring</h4>
+              <hr class="separator">
+              <h4 class="feature-title"><i class="pe-7s-headphones check"></i> 2h of 1 on 1 video call</h4>
+              <hr class="separator">
+              <h4 class="feature-title"><i class="pe-7s-graph1 check"></i> LinkedIn endorsement</h4>
+              <hr class="separator">
+              <h4 class="feature-title"><i class="pe-7s-gift check"></i> Bonus DDD material</h4>
+            </div>
+
+            <!-- Plan Action -->
+            <div class="plan-action">
+              <a href="{{ site.linkedin }}" rel="nofollow" target="_blank"><i class="fi flaticon-linkedin"></i> Write me a
+                PM on
+                LinkedIn</a>
+            </div>
+
+          </div>
+        </div>
+
       </div>
     </div>
 
