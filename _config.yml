@@ -379,6 +379,10 @@ tips_365:
   description: Always consider what project parts could be affected by your code change before doing so.
   date: 10.01.2018
 
+- id: 11
+  description: Don’t trust other developers nor yourself. Always double check the code you rely on.
+  date: 11.01.2018
+
 #This could be useful when I write a page about the C4 model
 #- id: 8
 #  description: As a Class, Object should have one responsibility, a technical diagram should have one purpose. Avoid
