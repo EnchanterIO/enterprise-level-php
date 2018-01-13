@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Agile doesn't exclude software design diagrams"
-description: ""
+description: "Your agile product owners lie to you. Software design diagrams are agile compatible."
 tagline: The Agile misconception
 tags: [php, agile, software design, documentation, architecture]
 date: 2018-01-13 14:14
