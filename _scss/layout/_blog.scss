@@ -22,14 +22,14 @@ section.blog-section {
       .article-boxes {
         float: left;
         width: 100%;
-        padding: 50px 0;
+        padding: 50px 0 0 0;
 
         // Box
         .box {
           display: block;
           width: 100%;
           float: left;
-          margin-bottom: 30px;
+          margin: 10px 0;
 
           &:last-child {
             margin-bottom: 0;
@@ -165,6 +165,10 @@ section.blog-section {
         float: left;
         width: 100%;
 
+        blockquote {
+          font-size: 1.5rem;
+        }
+
         h4 {
           font-size: 1.5rem;
           line-height: 1.7;
@@ -184,6 +188,7 @@ section.blog-section {
 
           li {
             padding: 5px 0;
+            line-height: 1.4em;
           }
         }
 

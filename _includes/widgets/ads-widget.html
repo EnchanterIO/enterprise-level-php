@@ -1,11 +1,24 @@
 <!-- Ads Widget -->
 <div class="widget newsletter-widget">
 
+  <!-- Widget Header -->
+  <header class="widget-header">
+    <h4 class="widget-title">Become an engineer</h4>
+  </header>
+
+  {% for question in site.questions %}
+  <p>
+    <em>{{ question.title }}</em>
+  </p>
+  {% endfor %}
+
   <!-- Widget Content -->
   <div class="widget-content">
 
-    <a href="{{ site.banner-link }}" rel="nofollow" target="_blank"><img
-            src="{{ site.baseurl }}/images/enterprise_level_php_course_thumbnail.jpg" alt="Enterprise Level PHP Course banner"></a>
+    <a href="{{ site.banner-link }}" rel="nofollow" target="_blank">
+      <img src="{{ site.baseurl }}/images/enterprise_level_php_course_thumbnail.jpg"
+           alt="Enterprise Level PHP Course banner">
+    </a>
 
   </div>
 

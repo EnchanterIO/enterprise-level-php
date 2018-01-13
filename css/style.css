@@ -3672,7 +3672,7 @@ section.site-section.next-section-indicator:after {
  *
  **/
 .widget {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 .widget header.widget-header {
@@ -4392,14 +4392,14 @@ section.blog-section.page-layout .blog-articles-container {
 section.blog-section.page-layout article.blog-article .article-boxes {
   float: left;
   width: 100%;
-  padding: 50px 0;
+  padding: 50px 0 0 0;
 }
 
 section.blog-section.page-layout article.blog-article .article-boxes .box {
   display: block;
   width: 100%;
   float: left;
-  margin-bottom: 30px;
+  margin: 10px 0;
 }
 
 section.blog-section.page-layout article.blog-article .article-boxes .box:last-child {
@@ -4511,6 +4511,10 @@ section.blog-section .blog-articles-container article.blog-article .article-cont
   width: 100%;
 }
 
+section.blog-section .blog-articles-container article.blog-article .article-content blockquote {
+  font-size: 1.5rem;
+}
+
 section.blog-section .blog-articles-container article.blog-article .article-content h4 {
   font-size: 1.5rem;
   line-height: 1.7;
@@ -4531,6 +4535,7 @@ section.blog-section .blog-articles-container article.blog-article .article-cont
 
 section.blog-section .blog-articles-container article.blog-article .article-content ul li, section.blog-section .blog-articles-container article.blog-article .article-content ol li {
   padding: 5px 0;
+  line-height: 1.4em;
 }
 
 section.blog-section .blog-articles-container article.blog-article .article-content .article-date {
