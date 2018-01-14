@@ -5004,11 +5004,11 @@ footer.site-footer .footer-copyright .footer-text {
 }
 
 .page-tips .page-tips-wisdom-container {
-  min-height: 265px;
+  min-height: 320px;
 }
 
 .page-tips blockquote {
-  margin: 50px 0;
+  margin: 50px 0 20px 0;
   float: none;
   font-size: 1.4rem;
 }

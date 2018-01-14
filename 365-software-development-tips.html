@@ -15,6 +15,12 @@ description: Learn bit by bit regularly. Each day of 2018, I will publish one wi
             {{ lastTip.description }}
         </blockquote>
 
+        {% if lastTip.source %}
+            <p>
+                <a href="{{ lastTip.source }}">{{ lastTip.source }}</a>
+            </p>
+        {% endif %}
+
         <a class="twitter-share-button"
            data-size="large"
            href="https://twitter.com/intent/tweet?text={{ lastTip.id }}/365%20|%20{{ lastTip.description }}%20@EnchanterIO">
@@ -38,7 +44,7 @@ description: Learn bit by bit regularly. Each day of 2018, I will publish one wi
 
             {% for tip in site.tips_365 %}
             <li class="page-tips-history-list-item">
-                <div class="page-tips-history-list-item-title">Day #{{ tip.id }}</div>
+                <div class="page-tips-history-list-item-title">Day #{{ tip.id }} | {% if tip.source %}<a href="{{ tip.source }}">{{ tip.source }}</a>{% endif %}</div>
                 <p class="page-tips-history-list-item-description">{{ tip.description }}</p>
                 <small class="page-tips-history-list-item-date">{{ tip.date }}</small>
             </li>

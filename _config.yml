@@ -383,6 +383,24 @@ tips_365:
   description: Don’t trust other developers nor yourself. Always double check the code you rely on.
   date: 11.01.2018
 
+- id: 12
+  description: Use CodeSniffer to ensure a consistent code style across your codebase.
+  source: https://www.udemy.com/enterprise-php/learn/v4/t/lecture/8531870
+  date: 12.01.2018
+
+- id: 13
+  description: Treat your *Repository as a Collection.
+  date: 13.01.2018
+
+- id: 14
+  description: Software design, documentation is perfectly Agile, Scrum sprint compatible.
+  source: https://enterprise-level-php.com/2018/01/13/the-agile-misconception-of-documentation-and-software-design.html
+  date: 14.01.2018
+
+#- id: 15
+#  description: Build a habit of diving into vendors occasionally, if time permits, instead of just googling answers.
+#  date: 14.01.2018
+
 #This could be useful when I write a page about the C4 model
 #- id: 8
 #  description: As a Class, Object should have one responsibility, a technical diagram should have one purpose. Avoid
