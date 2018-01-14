@@ -8,13 +8,14 @@ date: 2018-01-13 14:14
 image: agile_documentation.jpg
 ---
 
-#### The truth about documentation and Agile sprints
+#### The truth about documentation and Agile
 
 In past, managers had amazing skills to push us, developers, with words: *"You have to finish it before the deadline! We already announced the release date."*
 
 Obviously, this was creating a lot of conflicts between/inside the teams and no one would naturally think about taking a marker and start actually thinking through the solutions by sketching system, software diagrams on a whiteboard. *"Let's code people! Hurry up!"* 
 
-This phenomenon got even worst in last few years. The bold word "deadline" was replaced with a way more sophisticated version: **"Agile sprint"**. 
+This phenomenon got even worst in last few years. The bold word "deadline" was replaced with a way more sophisticated
+ version: **"Scrum sprint"**. 
 
 Managers very subtly changed the dynamics of the whole game by exploiting the Agile philosophy so they don't look like the bad guys with words: 
 
