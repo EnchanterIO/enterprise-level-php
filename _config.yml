@@ -397,9 +397,9 @@ tips_365:
   source: https://enterprise-level-php.com/2018/01/13/the-agile-misconception-of-documentation-and-software-design.html
   date: 14.01.2018
 
-#- id: 15
-#  description: Build a habit of diving into vendors occasionally, if time permits, instead of just googling answers.
-#  date: 14.01.2018
+- id: 15
+  description: Build a habit of diving into vendors occasionally, if time permits, instead of just googling answers.
+  date: 15.01.2018
 
 #This could be useful when I write a page about the C4 model
 #- id: 8
