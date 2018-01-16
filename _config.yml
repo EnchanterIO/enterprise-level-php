@@ -402,6 +402,12 @@ tips_365:
   answers. You will learn and expand your vision much more."
   date: 15.01.2018
 
+- id: 16
+  description: "As stubborn as we developers are, taking a short-mid break from a logical world of programming often
+  leads to the most elegant solutions."
+  source: https://twitter.com/EnchanterIO/status/953273105836924928
+  date: 16.01.2018
+
 #This could be useful when I write a page about the C4 model
 #- id: 8
 #  description: As a Class, Object should have one responsibility, a technical diagram should have one purpose. Avoid
