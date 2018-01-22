@@ -408,11 +408,11 @@ tips_365:
   source: https://twitter.com/EnchanterIO/status/953273105836924928
   date: 16.01.2018
 
-#This could be useful when I write a page about the C4 model
-#- id: 8
-#  description: As a Class, Object should have one responsibility, a technical diagram should have one purpose. Avoid
-#  mixing different level of details in one canvas.
-#  date: 08.01.2018
+- id: 17
+  description: As a Class should have 1 responsibility, a technical diagram should have 1 purpose. Avoid
+  mixing different level of details in 1 canvas.
+  source: https://c4model.com
+  date: 17.01.2018
 
 
 #####################################
